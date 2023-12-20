@@ -16,6 +16,6 @@ For example `win32-pe-packer main.exe` will create a folder named `main-packed` 
 
 I'm using this tool to investigate compatibility between win32kmin (Xbox One/Series OS, "OneCore", Windows 10X/Mobile/IoT) and win32kfull (Windows 10/11 desktop) based Windows systems.
 
-Having this tool allows me to fetch DLLs from my desktop OS that are missing DLLs on win32kmin systems. It's proven helpful to get some exe's running, but without win32k.sys loading win32kfull.sys, there are still alot of missing system calls, one most obvious example being for the Windows desktop shell.
+Having this tool allows me to fetch DLLs from my desktop OS that are missing on win32kmin systems. It's proven helpful to get some exe's running. But without win32k.sys loading win32kfull.sys, there are still alot of missing system calls. One most obvious example being for the Windows desktop shell.
 
 This is kind of inspired by the cancelled project to bring desktop win32 apps to Windows 10X in the form on a virtualized container.
