@@ -1,6 +1,6 @@
 # Win32 PE Packer
 
-This program hunts and gathers the Dynamically Linked Libraries from your System32 folder, as per a given PE file's imports, and packs them into a folder.
+This program hunts and gathers the Dynamically Linked Libraries from your PATH, as per a given PE file's imports, and packs them into a folder.
 
 You can use [pe-bear](https://github.com/hasherezade/pe-bear) to find what imports are available.
 
