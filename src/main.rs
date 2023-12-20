@@ -108,6 +108,6 @@ fn main() -> Result<(), Box<dyn Error>> {
                 }
             }
         }
-        None => println!("Usage: xpack [FILENAME]"),
+        None => println!("Usage: win32-pe-pack [FILENAME]"),
     })
 }
